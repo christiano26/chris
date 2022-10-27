@@ -17,6 +17,10 @@ use App\Http\Controllers\LoginController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', function () {
+    return redirect('/login');
+});
+
 //admin
 Route::middleware('auth')->group(function () {
 Route::get('/', function () {return view('admin.login'); });
