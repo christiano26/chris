@@ -4,6 +4,7 @@
 @section('konten')
 
 <div class="row">
+    <a class="btn btn-success" href="{{ route('masterproject.create') }}">Tambah data</a>
     <div class="col-lg-5">
         <div class="card shadow mb-4">
             <div class="card-header py-3">
